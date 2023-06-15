@@ -1,0 +1,56 @@
+.contenedor-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5.6%;
+    margin-bottom: 5.6%;
+    max-width: 35rem;
+
+    .login {
+        width: 100%;
+        padding: 8%;
+        background-color: #fff955;
+        -webkit-box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.15);
+        -moz-box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.15);
+        box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.15);
+        border-radius: 3px 3px 3px 3px;
+        -moz-border-radius: 3px 3px 3px 3px;
+        -webkit-border-radius: 3px 3px 3px 3px;
+        box-sizing: border-box;
+
+        .titulo {
+            font-size: 290%;
+            color: #000000;
+            text-align: center;
+        }
+
+        button {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 110%;
+            color: #ffffff;
+            border: none;
+            border-radius: 3px 3px 3px 3px;
+            -moz-border-radius: 3px 3px 3px 3px;
+            -webkit-border-radius: 3px 3px 3px 3px;
+            background-color: #000000;
+        }
+
+        button:hover {
+            background-color: rgb(245, 166, 70);
+            color: #000000;
+        }
+
+        .pie-form {
+            font-size: 100%;
+            text-align: center;
+
+            a {
+                color: rgb(0, 0, 0);
+            }
+
+            a:hover {
+                color: rgb(170, 0, 255);
+            }
+        }
+    }
+}
