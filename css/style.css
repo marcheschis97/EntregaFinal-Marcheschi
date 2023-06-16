@@ -478,6 +478,14 @@ a {
   }
 }
 
+.term-cond {
+  font-family: "Montserrat", sans-serif;
+}
+.term-cond .second-title {
+  margin-top: 4%;
+  font-weight: bold;
+}
+
 
 
 /*# sourceMappingURL=style.css.map */
