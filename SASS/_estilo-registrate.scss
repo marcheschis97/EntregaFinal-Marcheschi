@@ -4,18 +4,22 @@
     width: 100%;
     max-width: 1100px;
 
+    h1 {
+        margin-left: 2px;
+    }
+
     p {
         font-style: oblique;
         font-weight:bold;
+        margin-left: 5px;
     }
 
     .separador {
         border-bottom-width: 1px;
         border-bottom-color: #000000;
         border-bottom-style: dotted;
-        margin: 10px 5px;
+        width: 99%;
     }
-
 
     .checkbox {
         margin-top: 15px;
