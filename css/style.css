@@ -438,6 +438,8 @@ a {
 .pie1 .margenes-pie1 .enlaces-pie li a {
   color: rgb(255, 255, 255);
   text-shadow: 1px 1px 1px rgb(111, 0, 139);
+  overflow: hidden;
+  transition: all 1s;
 }
 .pie1 .margenes-pie1 .enlaces-pie li a:hover {
   color: rgb(178, 89, 223);
@@ -455,6 +457,17 @@ a {
 .pie1 .contacto-pie {
   color: rgb(255, 255, 255);
   font-weight: bold;
+}
+.pie1 .design-by {
+  color: rgb(80, 80, 80);
+}
+.pie1 .design-by a {
+  color: rgb(111, 0, 139);
+  overflow: hidden;
+  transition: all 2s;
+}
+.pie1 .design-by a:hover {
+  color: rgb(178, 89, 223);
 }
 .pie1 .pie2 {
   background-color: rgba(21, 21, 21, 0.6235294118);
